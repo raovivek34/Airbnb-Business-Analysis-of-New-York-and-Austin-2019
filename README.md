@@ -4,14 +4,9 @@ Business Objective - To create a pricing strategy for Airbnb, which helps Airbnb
 
 Type of Problem - Regression Analysis (Dependent Variable is 'Airbnb listing price per night (in USD)' which is regressed against bunch of independent variables (listing attributes - accommodates, bedrooms, bathrooms, beds, amenities provided, neighbourhood and the room type).
 
-Metrics - 1. RMSE (Root Mean Squared Error) to check which ML model provides accurate predictions
+Metrics - RMSE (Root Mean Squared Error) to check which ML model provides accurate predictions, Cross Validation Score for hyperparameter tuning in certain ML models, R^2 and Adjusted R^2 for explainability power and to check model fit.
 
-          2. Cross Validation Score for hyperparameter tuning in certain ML models
-          
-          3. R^2 and Adjusted R^2 for explainability power and to check model fit.
-          
 Data Science Lifecycle:
-
 1. Business Understanding
 
 2. Data Acquisition and Understanding
